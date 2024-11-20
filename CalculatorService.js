@@ -23,7 +23,7 @@ Array.prototype.clean = function() {
     return this;
 }		
 function infixToPostfix(exp) {
-	console.log("TEST -----------------------------------------------");
+	console.log("TEST ------------------------------------------------------");
 	var outputQueue = [];
 	var operatorStack = [];
 	var operators = {"/": { precedence: 3, associativity: "Left" },
